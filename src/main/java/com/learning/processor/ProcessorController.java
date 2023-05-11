@@ -9,12 +9,12 @@ public class ProcessorController {
 
   @GetMapping("/status")
   public String getProcessorAppStatus(){
-    return "Processor App is working";
+    return "Processor App is working jenkins";
   }
 
   @GetMapping("/")
   public String dummy(){
-    return "Processor App is working";
+    return "Processor App is working jenkins";
   }
 
 }
